@@ -8,7 +8,7 @@
 - [X] Unit testing with Vitest
 - [X] Continuous Integration with GitHub Actions
 - [ ] E2E Testing with Cypress
-- [] Dockerize project
+- [ ] Dockerize project
 
 ## 🛠️ Setup
 
