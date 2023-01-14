@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: dockerized-next-boilerplate
+    image: boilerplate 
+    build:
+      context: .
+    ports:
+      - 3000:3000

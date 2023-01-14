@@ -4,7 +4,7 @@ import { Inter as FontSans } from '@next/font/google'
 const fontSans = FontSans({
   subsets: ['latin'],
   weight: ['400', '700'],
-  variable: '--font-latin'
+  variable: '--font-inter'
 })
 
 
@@ -16,9 +16,9 @@ const RootLayout = ({
   children: ReactNode
 }) => {
   return (
-    <html lang="en">
+    <html lang="en" className={fontSans.variable}>
       <head />
-      <body className={fontSans.variable}>
+      <body>
         <main>
           {children}
         </main>

@@ -8,7 +8,7 @@
 - [X] Unit testing with Vitest
 - [X] Continuous Integration with GitHub Actions
 - [ ] E2E Testing with Cypress
-- [ ] Dockerize project
+- [X] Dockerize project
 
 ## 🛠️ Setup
 
@@ -20,16 +20,16 @@
 gh repo clone your-username/boilerplate.ts
 ```
 
-3. Installing (using yarn)
+3. Installing (using `pnpm`)
 
 ```
-yarn install 
+pnpm install 
 ```
 
-4. Running (using yarn)
+4. Running (using `pnpm`)
 
 ```
-yarn dev
+pnpm dev
 ```
 
 > :information_source: If you want to use Docker alternatively, check down below:
